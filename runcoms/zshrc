@@ -11,3 +11,4 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+source "${ZDOTDIR:-$HOME}/.dotfiles/resources/base16-shell/base16-tomorrow.dark.sh"
