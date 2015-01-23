@@ -10,5 +10,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+# Source colors
 source "${ZDOTDIR:-$HOME}/.dotfiles/resources/base16-shell/base16-tomorrow.dark.sh"
+
+# Fix delete key
+bindkey    "^[[3~"          delete-char
+bindkey    "^[3;5~"         delete-char
