@@ -5,9 +5,9 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
-# Print the message.
-cat <<-EOF
+clear
 
-Thank you. Come again!
-  -- Dr. Apu Nahasapeemapetilon
-EOF
+# Print closing message.
+#cat <<-EOF
+
+#EOF
