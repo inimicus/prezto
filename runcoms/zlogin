@@ -14,5 +14,6 @@
   fi
 } &!
 
-source $HOME/.banner
-
+if [ -e $HOME/.banner ]; then
+    source $HOME/.banner
+fi
