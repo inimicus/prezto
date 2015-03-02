@@ -16,3 +16,6 @@
 [submodule "modules/prompt/functions/pure"]
 	path = modules/prompt/external/pure
 	url = https://github.com/sindresorhus/pure.git
+[submodule "modules/prompt/external/z4rr3t"]
+	path = modules/prompt/external/z4rr3t
+	url = https://github.com/inimicus/z4rr3t.git
