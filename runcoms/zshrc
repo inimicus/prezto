@@ -15,6 +15,11 @@ if [[ -s "${ZDOTDIR:-$HOME}/.dotfiles/resources/base16-shell/base16-tomorrow.dar
     source "${ZDOTDIR:-$HOME}/.dotfiles/resources/base16-shell/base16-tomorrow.dark.sh"
 fi
 
+# Source awscli completion
+if [[ -s /usr/local/share/zsh/site-functions/_aws ]]; then
+    source /usr/local/share/zsh/site-functions/_aws
+fi
+
 # Fix delete key
 bindkey    "^[[3~"          delete-char
 bindkey    "^[3;5~"         delete-char
