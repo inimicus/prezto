@@ -10,8 +10,9 @@ if (( ! $+commands[go] )); then
   return 1
 fi
 
-# Source awscli completion
-if [[ -s /usr/local/share/zsh/site-functions/_aws ]]; then
-    source /usr/local/share/zsh/site-functions/_aws
-fi
+export GOPATH="$HOME/Projects/go"
 
+path=(
+  $path
+  $GOPATH/bin
+)
