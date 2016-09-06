@@ -11,7 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Source colors
-if [[ -s "${ZDOTDIR:-$HOME}/.dotfiles/resources/base16-shell/base16-tomorrow.dark.sh" ]]; then
-    source "${ZDOTDIR:-$HOME}/.dotfiles/resources/base16-shell/base16-tomorrow.dark.sh"
+if [[ -s "${ZDOTDIR:-$HOME}/.dotfiles/resources/base16-shell/scripts/base16-tomorrow-night.sh" ]]; then
+    source "${ZDOTDIR:-$HOME}/.dotfiles/resources/base16-shell/scripts/base16-tomorrow-night.sh"
 fi
 
