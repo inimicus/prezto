@@ -129,14 +129,14 @@ zstyle ':prezto:module:syntax-highlighting' highlighters \
   'main' \
   'brackets' \
   'pattern' \
-  'cursor' \
-  'root'
+  'cursor'
 
 # Set syntax highlighting styles.
-# zstyle ':prezto:module:syntax-highlighting' styles \
-#   'builtin' 'bg=blue' \
-#   'command' 'bg=blue' \
-#   'function' 'bg=blue'
+zstyle ':prezto:module:syntax-highlighting' styles \
+  'path' 'none' \
+  'suffix-alias' 'fg=green' \
+  'precommand' 'fg=green'
+  # Removes underlines
 
 #
 # Terminal
