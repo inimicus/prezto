@@ -117,6 +117,13 @@ zstyle ':prezto:module:prompt' theme 'z4rr3t'
 # zstyle ':prezto:module:ruby:chruby' auto-switch 'yes'
 
 #
+# Python
+#
+
+# Auto switch the Python virtualenv on directory change.
+# zstyle ':prezto:module:python:virtualenv' auto-switch 'yes'
+
+#
 # Screen
 #
 
