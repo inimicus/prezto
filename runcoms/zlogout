@@ -7,7 +7,3 @@
 
 clear
 
-# Print closing message.
-#cat <<-EOF
-
-#EOF
