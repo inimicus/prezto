@@ -171,7 +171,8 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   alias ggw='git grep --word-regexp'
 
   # Index (i)
-  alias gia='git add'
+  alias gaa='git add --all --intent-to-add'
+  alias gia='git add -i'
   alias giA='git add --patch'
   alias giu='git add --update'
   alias gid='git diff --no-ext-diff --cached'
@@ -261,7 +262,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   alias gtv='git verify-tag'
 
   # Working Copy (w)
-  alias gws='git status --ignore-submodules=${_git_status_ignore_submodules} --short'
+  alias gws='git status -b --ignore-submodules=${_git_status_ignore_submodules} --short'
   alias gwS='git status --ignore-submodules=${_git_status_ignore_submodules}'
   alias gwd='git diff --no-ext-diff'
   alias gwD='git diff --no-ext-diff --word-diff'
