@@ -15,3 +15,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.dotfiles/resources/base16-shell/scripts/base16-tomo
     source "${ZDOTDIR:-$HOME}/.dotfiles/resources/base16-shell/scripts/base16-tomorrow-night.sh"
 fi
 
+# Source homebrew arm64
+if [[ -d "/opt/homebrew/bin" ]]; then
+  export PATH="/opt/homebrew/bin:$PATH"
+fi
